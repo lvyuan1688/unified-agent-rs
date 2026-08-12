@@ -1,0 +1,21 @@
+# Rust
+/target
+**/target
+*.rs.bk
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+
+# Telemetry logs (runtime data)
+telemetry.jsonl
+sessions/

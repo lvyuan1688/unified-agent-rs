@@ -1,0 +1,32 @@
+[package]
+name = "unified-agent-rs"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["lvyuan1688"]
+description = "AI agent toolkit: unified multi-provider LLM API, agent loop, TUI, coding agent — in Rust. Inspired by earendil-works/pi."
+repository = "https://github.com/lvyuan1688/unified-agent-rs"
+keywords = ["ai", "agent", "llm", "tui", "toolkit", "pi"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+anyhow = "1"
+async-trait = "0.1"
+clap = { version = "4", features = ["derive"] }
+ratatui = "0.28"
+crossterm = "0.28"
+futures = "0.3"
+reqwest = { version = "0.12", features = ["json", "stream"] }
+
+[workspace]
+members = [
+    "crates/ua-ai",
+    "crates/ua-agent-core",
+    "crates/ua-coding-agent",
+    "crates/ua-tui",
+    "crates/ua-telemetry",
+]
