@@ -1,5 +1,7 @@
 # unified-agent-rs
 
+![Demo](docs/demo.png)
+
 > AI agent toolkit: unified multi-provider LLM API, agent loop, TUI, coding agent — in Rust.
 > Inspired by [earendil-works/pi](https://github.com/earendil-works/pi) (87k+ stars), rewritten from scratch in pure Rust with a built-in telemetry dashboard and a stronger self-extensible skill system.
 

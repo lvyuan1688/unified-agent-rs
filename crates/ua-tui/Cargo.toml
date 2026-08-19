@@ -1,0 +1,14 @@
+[package]
+name = "ua-tui"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Terminal UI for unified-agent-rs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+anyhow = "1"
+ratatui = "0.28"
+crossterm = "0.28"
+ua-agent-core = { path = "../ua-agent-core" }
