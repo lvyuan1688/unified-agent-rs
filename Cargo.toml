@@ -29,4 +29,5 @@ members = [
     "crates/ua-coding-agent",
     "crates/ua-tui",
     "crates/ua-telemetry",
+    "crates/ua-skill",
 ]
