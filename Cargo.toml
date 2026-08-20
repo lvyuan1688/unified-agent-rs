@@ -31,4 +31,5 @@ members = [
     "crates/ua-telemetry",
     "crates/ua-skill",
     "crates/ua-memory",
+    "crates/ua-fs-state",
 ]
