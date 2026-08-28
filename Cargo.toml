@@ -21,6 +21,10 @@ ratatui = "0.28"
 crossterm = "0.28"
 futures = "0.3"
 reqwest = { version = "0.12", features = ["json", "stream"] }
+# Workspace crates (path deps so examples/main can use them)
+ua-agent-core = { path = "crates/ua-agent-core" }
+ua-ai = { path = "crates/ua-ai" }
+ua-event-bus = { path = "crates/ua-event-bus" }
 
 [workspace]
 members = [
